@@ -1,0 +1,37 @@
+body {
+	font-family: Arial,Calibri,Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.container {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	margin:auto;
+}
+header {
+	text-align: center;
+	padding: 40px 20px;
+	background: #e9e9e9;
+	width: 100%;
+}
+.menu ul {
+	text-align: center;
+	width: 100%;
+	display: block;
+	background: #bbb;
+	margin:0;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul a {
+	padding: 10px 40px;
+	display: inline-block;
+}
+.menu ul a:hover {
+	background: #f0f0f0;
+}
+.content {
+	padding:20px;
+	border:1px solid #ccc;
+	width: 100%;
+}
